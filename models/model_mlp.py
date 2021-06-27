@@ -34,6 +34,7 @@ class Mlp(nn.Module):
         
 
     def forward(self, x):
+        x = x.view(-1, self.num_flat_features(x))
         x = self.L1(x)
         x = self.bn1(x)
         x = F.relu(x)
@@ -52,3 +53,10 @@ class Mlp(nn.Module):
 
         x = self.L5(x)
         return x
+    
+    def num_flat_features(self, x):
+        size = x.size()[1:]
+        num_features = 1
+        for s in size:
+            num_features *= s
+        return num_features
