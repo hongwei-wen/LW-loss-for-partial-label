@@ -1,7 +1,7 @@
 # LW loss
 
 This is the code for the paper: LEVERAGED WEIGHTED LOSS FOR PARTIAL LABEL LEARNING.
-Paper link is https://openreview.net/pdf?id=DHkGKg2fJay
+Paper link is https://arxiv.org/abs/2106.05731
 
 ## Setups
 
