@@ -14,7 +14,7 @@ All code was developed and tested on a single machine equiped with a NVIDIA Tesl
 
 Here is an example:
 ```
-python Task0119_lws01_01.py
+python main.py
 
 ```
 ## Parameters settings 
