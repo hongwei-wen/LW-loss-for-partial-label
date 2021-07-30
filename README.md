@@ -14,7 +14,7 @@ All code was developed and tested on a single machine equiped with a NVIDIA Tesl
 
 Here is an example:
 ```
-python main.py --tradeoff=1 --lr=5e-2 --weight_decay=1e-3 --partial_type=binomial --partial_rate=0.5 --batchsize=256 --n_epoch=501 --dataset=mnist --model=mlp --decay_step=50 --decay_rate=0.5 --seed=505
+python Task0119_lws01_01.py
 
 ```
 ## Parameters settings 
