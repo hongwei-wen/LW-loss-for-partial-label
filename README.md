@@ -5,7 +5,7 @@ Paper link is https://arxiv.org/abs/2106.05731
 
 ## Update
 
-We have updated the code for LW loss with cross entropy (LWC), and the best parameters for both losses on the CIFAR-10 dataset.
+We have updated the code for LW loss with cross entropy (LWC), and the best parameters for both losses on the CIFAR-10 and MNIST datasets.
 
 ## Setups
 
