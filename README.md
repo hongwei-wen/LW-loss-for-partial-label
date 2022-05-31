@@ -36,8 +36,7 @@ python main-cv_sgd_best.py -ds cifar10 -pr 0.5 -mo cnn -lo lwc -lw 1 -lr 0.01 -w
 
 ```
 
-## Parameters settings 
+More parameter grids can be found in file './main.py'.
 
-Information about tuned parameters is in file './Run.md'.
 We only use the MLP and ConvNet in papers, but Linear and Resnet models are also implemented. 
 
